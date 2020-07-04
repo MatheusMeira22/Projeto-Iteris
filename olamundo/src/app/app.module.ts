@@ -18,13 +18,16 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ImovelCardComponent } from './imovel-card/imovel-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ServicosPageComponent } from './servicos-page/servicos-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CadastroComponent,
-    ImovelCardComponent
+    ImovelCardComponent,
+    ServicosPageComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +43,8 @@ import { ImovelCardComponent } from './imovel-card/imovel-card.component';
     MatSelectModule,
     MatRadioModule,
     MatCardModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
