@@ -13,7 +13,7 @@ const routes: Routes = [
     component: NavBarComponent,
     children: [
       {
-        path: 'Home',
+        path: '',
         component: HomeComponent,
       },
       {
