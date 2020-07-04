@@ -17,12 +17,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ImovelCardComponent } from './imovel-card/imovel-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    CadastroComponent
+    CadastroComponent,
+    ImovelCardComponent
   ],
   imports: [
     BrowserModule,
