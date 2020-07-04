@@ -20,6 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ImovelCardComponent } from './imovel-card/imovel-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ServicosPageComponent } from './servicos-page/servicos-page.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ServicosPageComponent } from './servicos-page/servicos-page.component';
     NavBarComponent,
     CadastroComponent,
     ImovelCardComponent,
-    ServicosPageComponent
+    ServicosPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

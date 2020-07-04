@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { ImovelCardComponent } from './imovel-card/imovel-card.component';
 import { ServicosPageComponent } from './servicos-page/servicos-page.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -13,12 +14,16 @@ const routes: Routes = [
     children: [
       {
         path: 'Home',
-        component: ServicosPageComponent,
+        component: HomeComponent,
       },
       {
       path: 'Cadastro' ,
       component: CadastroComponent
-      }
+      },
+      {
+        path: 'Servicos' ,
+        component: ServicosPageComponent
+        }
     ]
   }
 ];
